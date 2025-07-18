@@ -1,0 +1,19 @@
+=== Model Used: xgboost ===
+=== Classification Report ===
+              precision    recall  f1-score   support
+
+           0       0.83      0.89      0.86       516
+           1       0.61      0.50      0.55       187
+
+    accuracy                           0.78       703
+   macro avg       0.72      0.69      0.71       703
+weighted avg       0.77      0.78      0.78       703
+
+=== Confusion Matrix ===
+[[457  59]
+ [ 93  94]]
+=== ROC AUC ===
+0.8202286199892218
+=== Cross-Validation ROC AUC ===
+Mean: 0.8480
+Std (Variance): 0.0176
